@@ -150,7 +150,7 @@ formatter.match({
   "location": "MovieListing.the_apis_are_up_and_running_for_http_cmapi_bananaappscenter_com(String)"
 });
 formatter.result({
-  "duration": 5336722107,
+  "duration": 1733692318,
   "status": "passed"
 });
 formatter.match({
@@ -163,7 +163,7 @@ formatter.match({
   "location": "MovieListing.a_user_performs_a_get_request_to_api_Location_LocationDetails(String)"
 });
 formatter.result({
-  "duration": 3042173683,
+  "duration": 886940311,
   "status": "passed"
 });
 formatter.match({
@@ -176,7 +176,7 @@ formatter.match({
   "location": "MovieListing.the_response_code_should_be(int)"
 });
 formatter.result({
-  "duration": 490719,
+  "duration": 453565,
   "status": "passed"
 });
 formatter.match({
@@ -189,7 +189,7 @@ formatter.match({
   "location": "MovieListing.i_should_see_json_response_with_pairs_on_the_filtered_Msg_node(String,DataTable)"
 });
 formatter.result({
-  "duration": 177722428,
+  "duration": 129542185,
   "status": "passed"
 });
 formatter.scenario({
@@ -291,7 +291,7 @@ formatter.match({
   "location": "MovieListing.the_apis_are_up_and_running_for_http_cmapi_bananaappscenter_com(String)"
 });
 formatter.result({
-  "duration": 679430359,
+  "duration": 797854127,
   "status": "passed"
 });
 formatter.match({
@@ -304,14 +304,14 @@ formatter.match({
   "location": "MovieListing.a_user_performs_a_post_request_to_api_Location_LocationDetails_with_below_details(String,DataTable)"
 });
 formatter.result({
-  "duration": 133483,
+  "duration": 146312,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieListing.and_perform_the_post_request()"
 });
 formatter.result({
-  "duration": 1595013140,
+  "duration": 737107596,
   "status": "passed"
 });
 formatter.match({
@@ -324,7 +324,7 @@ formatter.match({
   "location": "MovieListing.the_response_code_should_be(int)"
 });
 formatter.result({
-  "duration": 100132,
+  "duration": 104404,
   "status": "passed"
 });
 formatter.match({
@@ -337,7 +337,7 @@ formatter.match({
   "location": "MovieListing.i_should_see_json_response_with_pairs_on_the_filtered_Msg_node(String,DataTable)"
 });
 formatter.result({
-  "duration": 1565018,
+  "duration": 1554019,
   "status": "passed"
 });
 });
