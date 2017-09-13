@@ -1,4 +1,4 @@
-package main;
+package com.api.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,7 +13,7 @@ public class TestRunner {
 			strict = true,
 			monochrome = true, 
 			features = "src/test/resources/features",
-			glue = "steps",
+			glue = "com.api.steps",
 			plugin = {"pretty", "html:target/cucumber-html-report" },
 			tags={"@Regression,@Smoke"})
 

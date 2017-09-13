@@ -1,16 +1,17 @@
-package steps;
+package com.api.steps;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import gherkin.formatter.model.DataTableRow;
-import main.TestRunner;
 import cucumber.api.java.en.Then;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 import static com.jayway.restassured.RestAssured.given;
-import main.ResponseHolder;
+
+import com.api.utils.ResponseHolder;
+import com.api.utils.TestRunner;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 import java.util.LinkedHashMap;
@@ -23,7 +24,7 @@ import org.testng.Assert;
 
 public class MovieListing extends TestRunner{
 	private String url;
-	//private String body;
+	
 	private Long statusCode;
 	Map<String, Object> responseMap;
 	Map<String, String> query;
@@ -83,7 +84,6 @@ public class MovieListing extends TestRunner{
 	public void a_user_performs_a_post_request_to_api_Location_LocationDetails_with_below_details(String url, DataTable dataTable) throws Throwable {
 		this.url = this.url+url;
 		this.body = new LinkedHashMap<String, String>();
-		//Map<String, String> body = new LinkedHashMap<String, String>();
 		for (DataTableRow row : dataTable.getGherkinRows()) {
 			this.body.put(row.getCells().get(0),  row.getCells().get(1));
 		}

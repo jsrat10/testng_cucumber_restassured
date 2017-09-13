@@ -1,4 +1,4 @@
-package main;
+package com.api.utils;
 import com.jayway.restassured.response.Response;
 import com.jayway.restassured.response.Headers;
 

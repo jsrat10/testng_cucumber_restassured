@@ -1,3 +1,3 @@
-/Users/pythonworld/eclipse-workspace/APITesting/src/test/java/main/TestRunner.java
-/Users/pythonworld/eclipse-workspace/APITesting/src/test/java/main/ResponseHolder.java
-/Users/pythonworld/eclipse-workspace/APITesting/src/test/java/steps/MovieListing.java
+/Users/pythonworld/eclipse-workspace/APITesting/src/test/java/com/api/steps/MovieListing.java
+/Users/pythonworld/eclipse-workspace/APITesting/src/test/java/com/api/utils/TestRunner.java
+/Users/pythonworld/eclipse-workspace/APITesting/src/test/java/com/api/utils/ResponseHolder.java
